@@ -1,4 +1,4 @@
-#/bin/bash
+#!/bin/bash
 
 # Desc: Adds trailing new line to all files in directory filtered by extension
 # Usage: add_tnl.sh <directory> <list of file extensions>
