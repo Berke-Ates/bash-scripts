@@ -1,5 +1,8 @@
 #!/bin/bash
-cd $(dirname $0)/../..
+
+# Desc: Fetches remote branches and deletes all local branches except main
+# Usage: fetch_clean.sh
+# Example: ./fetch_clean.sh
 
 if ! prog.sh "git fetch -p" "fetching remote branches" "fetched!\n" "fetching failed!\n"; then
     exit 1
